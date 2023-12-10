@@ -1,0 +1,17 @@
+
+.homepage{
+    background-image: url(../images/side-view-cook-making-delicious-pasta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    width: 500px;
+    height: 500px;
+}

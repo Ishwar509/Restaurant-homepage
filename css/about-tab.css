@@ -1,0 +1,44 @@
+
+.aboutSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-items: center;  
+}
+
+.viewImage {
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+img {
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+}
+
+.aboutInfo {
+    & h1{
+        word-spacing: 20px;
+        font-size: 6rem;
+        font-weight: bold;
+        font-family: 'Style Script', 'Roboto Mono', monospace, sans-serif;
+    }
+
+    & p {
+        font-size: 1.2rem;
+        font-family: 'Roboto Mono', monospace, sans-serif;
+    }
+
+    & p:nth-child(2){
+        padding: 30px 0;
+    }
+}

@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Russo+One&family=Style+Script&family=Roboto+Mono);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homeTab {
+    --pageBackground: transparent;
+    --headerBackground: transparent;
+    --navTextColor: white;
+}
+
+.otherTab {
+    --pageBackground: whitesmoke;
+    --headerBackground: white;
+    --navTextColor: black;
+}
+
+#content {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    background-color: var(--pageBackground);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    place-items: center;
+    border-bottom: 2px solid black;
+    background-color: var(--headerBackground);
+}
+
+.title {
+    cursor: pointer;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Russo One', monospace, sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    color: var(--navTextColor);
+}
+
+.navigation {
+    display: flex;
+
+    & li{
+        list-style: none;
+    }
+
+    & button {
+        cursor: pointer;
+        width: 120px;
+        height: 50px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family: 'Russo One', monospace, sans-serif;
+        border: none;
+        background-color: transparent;
+        letter-spacing: 2px;
+        color: var(--navTextColor);
+    }
+
+    & button:hover{
+        transition: 0.3s;
+        color: white;
+        background-color: black;
+    }
+}
+

@@ -1,0 +1,38 @@
+
+.contactSection {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.contactSideImg{
+    background-image: url(../images/restaurant-view-outside.jpg);
+    background-size: cover;
+}
+
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 40px;
+}
+
+table {
+    border-spacing: 30px 20px;
+}
+
+table th {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+table td {
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+.info div{
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    padding-bottom: 30px;
+}

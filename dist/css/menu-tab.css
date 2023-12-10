@@ -1,0 +1,46 @@
+
+.menu {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/top-view-mushed-potato-dish-with-tomato-sauce-greens-dark-floor-dinner-dish-meal-potato.jpg);
+    background-size: cover;
+}
+
+.list > li {
+    padding-top: 20px;
+}
+
+.list span {
+    display: inline-block;
+    text-transform: uppercase;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 3rem;
+    font-family: 'Style Script', 'Roboto Mono', monospace, sans-serif;
+    color: orangered;
+    background-color: antiquewhite;
+}
+
+.list {
+    list-style: none;
+    padding: 40px;
+    padding-right: 0px;
+
+    & ul {
+        list-style: disc;
+        padding-left: 80px;
+        font-size: 1.5rem;
+        font-family: 'Roboto Mono', monospace, sans-serif;
+        color: black;
+    }
+}
+
+.list ul li::marker {
+    color: orange;
+}

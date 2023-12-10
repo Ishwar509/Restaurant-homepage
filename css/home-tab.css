@@ -11,7 +11,19 @@
     justify-content: end;
 }
 
-.logo {
-    width: 500px;
-    height: 500px;
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tagline p {
+    padding-right: 40px;
+    text-align: start;
+    font-size: 5rem;
+    color: #EE7214;
+    font-family: 'Style Script', 'Roboto Mono', monospace, sans-serif;
+    
 }

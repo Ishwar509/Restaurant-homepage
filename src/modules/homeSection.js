@@ -4,7 +4,7 @@ export default function createHomeSection(){
     container.classList.add('home');
 
     const img = new Image();
-    img.src = "../images/Designer.png"
+    img.src = "../images/Designer.jpg";
     img.classList.add('logo');
 
     container.appendChild(img);
